@@ -12,11 +12,11 @@ const List = ({ people }) => {
             key={id}
             className='person'
           >
+            <img
+              src={image}
+              alt={name}
+            />
             <div>
-              <img
-                src={image}
-                alt={name}
-              />
               <h4>{name}</h4>
               <p>{age} years old</p>
             </div>
