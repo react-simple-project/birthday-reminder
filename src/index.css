@@ -1,8 +1,10 @@
-/*
-=============== 
-Variables
-===============
-*/
+/**
+ * =============== 
+ * Variables
+ * ===============
+ *
+ * @format
+ */
 
 :root {
   /* dark shades of primary color*/
@@ -41,7 +43,8 @@ Variables
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
   --max-width: 1170px;
   --fixed-width: 450px;
-  --clr-pink: #f28ab2;
+  --clr-blue: #8be1f4;
+  --clr-blue-btn: #32b4d2;
 }
 /*
 =============== 
@@ -59,7 +62,7 @@ Global Styles
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  background: var(--clr-pink);
+  background: var(--clr-blue);
   color: var(--clr-grey-9);
   line-height: 1.5;
   font-size: 0.875rem;
@@ -156,6 +159,7 @@ main {
 }
 .person {
   display: grid;
+
   grid-template-columns: auto 1fr;
   column-gap: 0.75rem;
   margin-bottom: 1.5rem;
@@ -179,7 +183,7 @@ main {
   display: block;
   width: 100%;
   border-color: transparent;
-  background: var(--clr-pink);
+  background: var(--clr-blue-btn);
   margin: 2rem auto 0 auto;
   text-transform: capitalize;
   font-size: 1.2rem;

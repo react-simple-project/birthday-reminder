@@ -14,6 +14,7 @@ Creating multiple react apps as I study the different hooks to grow in proficien
 
 - [Original projects](https://react-projects.netlify.app/)
 - [Guide followed to learn more react](https://www.youtube.com/watch?v=a_7Z7C_JCyo&ab_channel=freeCodeCamp.org)
+- [Design of application based on UIDesignDaily](https://uidesigndaily.com/posts/sketch-birthdays-list-card-widget-day-1042)
 
 ### Setup
 
