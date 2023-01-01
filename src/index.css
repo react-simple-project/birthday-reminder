@@ -44,6 +44,7 @@
   --max-width: 1170px;
   --fixed-width: 450px;
   --clr-blue: #8be1f4;
+  --clr-blue-btn: #32b4d2;
 }
 /*
 =============== 
@@ -158,7 +159,7 @@ main {
 }
 .person {
   display: grid;
-  
+
   grid-template-columns: auto 1fr;
   column-gap: 0.75rem;
   margin-bottom: 1.5rem;
@@ -182,7 +183,7 @@ main {
   display: block;
   width: 100%;
   border-color: transparent;
-  background: var(--clr-blue);
+  background: var(--clr-blue-btn);
   margin: 2rem auto 0 auto;
   text-transform: capitalize;
   font-size: 1.2rem;
